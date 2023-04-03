@@ -1,0 +1,24 @@
+{
+  "name": "projectplatform",
+  "version": "1.0.0",
+  "description": "Uma plataforma de perguntas e respostas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon intex.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.0",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "prettier": "2.5.1"
+  }
+}
